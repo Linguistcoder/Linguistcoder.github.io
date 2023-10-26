@@ -29,13 +29,15 @@
 .u-section-1 .u-rotation-parent-1 {
   width: 642px;
   height: 538px;
-  margin: 0 -108px 0 auto;
+  margin: -269px auto 0 -425px;
 }
 
 .u-section-1 .u-image-1 {
   width: 642px;
   height: 538px;
   object-position: 50% 0%;
+  transform: scaleY(-1);
+  transform-origin: center center 0px;
 }
 
 .u-section-1 .u-layout-cell-2 {
@@ -94,28 +96,15 @@
 
 @media (max-width: 1199px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 815px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    height: auto;
-    margin: initial;
+    min-height: 739px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 940px;
-    margin-top: 94px;
-    margin-right: -50px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 531px;
-  }
-
-  .u-section-1 .u-rotation-parent-1 {
-    width: 567px;
-    height: 531px;
-    margin-right: -66px;
   }
 
   .u-section-1 .u-image-1 {
@@ -135,22 +124,15 @@
 
 @media (max-width: 991px) {
   .u-section-1 .u-sheet-1 {
-    min-height: 675px;
+    min-height: 334px;
   }
 
   .u-section-1 .u-layout-wrap-1 {
     width: 720px;
-    margin-right: 0;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 527px;
-  }
-
-  .u-section-1 .u-rotation-parent-1 {
-    width: 384px;
-    height: 360px;
-    margin-right: 0;
   }
 
   .u-section-1 .u-layout-cell-2 {
@@ -168,37 +150,12 @@
 }
 
 @media (max-width: 767px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 892px;
-  }
-
-  .u-section-1 .u-shape-1 {
-    height: 652px;
-    margin-top: 0;
-    margin-bottom: 0;
-    width: auto;
-    left: auto;
-    bottom: auto;
-    right: auto;
-    top: auto;
-  }
-
   .u-section-1 .u-layout-wrap-1 {
-    margin-top: -581px;
-    margin-bottom: 56px;
-    margin-right: initial;
-    margin-left: initial;
-    width: auto;
+    width: 540px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 407px;
-  }
-
-  .u-section-1 .u-rotation-parent-1 {
-    width: 540px;
-    height: 407px;
-    margin-right: auto;
   }
 
   .u-section-1 .u-image-1 {
@@ -208,18 +165,16 @@
 }
 
 @media (max-width: 575px) {
-  .u-section-1 .u-sheet-1 {
-    min-height: 675px;
+  .u-section-1 .u-shape-1 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-layout-wrap-1 {
+    width: 340px;
   }
 
   .u-section-1 .u-layout-cell-1 {
     min-height: 256px;
-  }
-
-  .u-section-1 .u-rotation-parent-1 {
-    width: 340px;
-    height: 356px;
-    margin-bottom: -37px;
   }
 
   .u-section-1 .u-image-1 {
